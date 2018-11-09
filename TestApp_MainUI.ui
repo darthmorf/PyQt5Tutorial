@@ -18,45 +18,29 @@
     <normaloff>icon.png</normaloff>icon.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="myButton">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>50</y>
-      <width>93</width>
-      <height>28</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Press Me!</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="myLabel">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>20</y>
-      <width>111</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>I'm a default label</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="openDialogButton">
-    <property name="geometry">
-     <rect>
-      <x>20</x>
-      <y>88</y>
-      <width>109</width>
-      <height>26</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Open A new Dialog</string>
-    </property>
-   </widget>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="myLabel">
+      <property name="text">
+       <string>I'm a default label</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="myButton">
+      <property name="text">
+       <string>Press Me!</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QPushButton" name="openDialogButton">
+      <property name="text">
+       <string>Open A new Dialog</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>

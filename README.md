@@ -11,3 +11,4 @@ This tutorial is structured so that each commit is a new step in the tutorial. T
  3. Installing the PyQt5 Designer
  4. Loading UI
  5. Second Window
+ 6. Layouts and Window Scaling
