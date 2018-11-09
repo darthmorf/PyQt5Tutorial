@@ -12,3 +12,4 @@ This tutorial is structured so that each commit is a new step in the tutorial. T
  4. Loading UI
  5. Second Window
  6. Layouts and Window Scaling
+ 7. Dynamically Loading Widget Sections
