@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>322</width>
-    <height>123</height>
+    <height>163</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -42,6 +42,19 @@
     </property>
     <property name="text">
      <string>I'm a default label</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="openDialogButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>88</y>
+      <width>109</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Open A new Dialog</string>
     </property>
    </widget>
   </widget>
